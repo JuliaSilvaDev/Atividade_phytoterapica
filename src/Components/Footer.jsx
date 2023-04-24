@@ -28,6 +28,11 @@ function Footer(){
                 <div className="seg3"></div>
                 <div className="seg4"></div>
             </div>
+
+            <div className="seguro">
+                <div className="doce"></div>
+                <p>PHYTOTERAPICA© 2023 AV NOVA CANTAREIRA, 2627 - SÃO PAULO/SPCNPJ: 72.962.327/0001-55</p>
+            </div>
             
     
 
