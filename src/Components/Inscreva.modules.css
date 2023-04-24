@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inscreva {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(226, 226, 226);
+    top: 50px;
+}
+
+.input {
+    position: relative;
+    width: 40%;
+    height: 90px;
+    left: 30%;
+    top: -75px;
+}
+
+.agora {
+    position: relative;
+    width: 16%;
+    height: 90px;
+    font-size: 23px;
+    left:180px;
+    top: 25px;
+ 
+}
+.P {
+    position: relative;
+    font-size: 14px;
+}
+input {
+    position:relative;
+    top: 30px;
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    border-radius: 50px;
+    border: 1px solid #6b6b6b;
+}
+
+.assinar {
+    position: relative;
+    width: 16%;
+    height: 43px;
+    left: 71%;
+    top: -136px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    transition: 1.2s;
+    background-color: #98b020;
+}
+
+.assinar:hover {
+    transition: 1.2s;
+    background-color: #a8c70d;
+}
+
+.assinar p {
+    position: relative;
+    top: 10px;
+    color: #fff;
+
+}
+
+

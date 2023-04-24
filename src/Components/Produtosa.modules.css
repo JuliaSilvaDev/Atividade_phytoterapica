@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fundo{
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    background-size: cover;
+    height: 100%;  
+}
+
+h2{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+}

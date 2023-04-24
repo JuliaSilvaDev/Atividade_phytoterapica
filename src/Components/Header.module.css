@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    border: 0.78px   solid #bbbbbb;
+}
+
+.caixa {
+    width: 100%;
+    height: 90px;
+    /*background-color: aliceblue;*/
+    margin: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;  
+}
+
+.logo {
+    width: 25%;
+    height: 90px;
+    background: url(../imagens/logo.png);
+    background-size: cover;
+    position: relative;
+    left: -30px;
+    top: -3px;
+    box-sizing: border-box;
+}
+
+.procura {
+    width: 20%;
+    height: 34px;
+    /*background-color: #008500;*/
+    position: relative;
+    display: flex;
+    position: relative;
+    left: 135px;
+    margin-top: 33px;
+    border-radius: 50px;
+    border: 1px solid #b4b4b4;
+}
+
+.compra {
+    width: 20%;
+    height: 34px;
+    position: relative;
+    display: flex;
+    position: relative;
+    left: 40px;
+    border: 2px solid;
+    border-radius: 50px;
+    margin-top: 33px;
+    transition: 1.2s;
+    border: 1px solid #7e7e7e;
+}
+
+.compra:hover{
+    background-color: rgb(143, 255, 91);
+    transition: 1.2s;
+}
+.compra p:hover {
+    color: #fff;
+    transition: 1.2s;
+}
+
+.procura i {
+    margin: 10px;
+    position: relative;
+    left: 25px;
+    color: #7e7e7e;
+    transition: 1.2s;
+}
+
+.procura p {
+    position: relative;
+    margin: 5px;
+    left: 20px;
+    color: #6b6b6b;
+}
+
+
+.compra p {
+    position: relative;
+    margin: 5px;
+    left: 25px;
+    height: 100%;
+    top: 3px;
+    font-size: 13px;
+    color: #6b6b6b;
+    cursor: pointer;
+}
+
+
+.compra i {
+    margin: 8px;
+    position: relative;
+    left: 58px;
+    width: 23px;
+    text-align: center;
+    border-radius: 50px;
+    height: 22px;
+    color: rgb(99, 99, 99);
+}
+
+.usuario {
+    position:relative;
+    top: 42px;
+    width: 3.7%;
+    height: 20px;
+    left: -25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.usuario i {
+    width: 5px;
+    height: 9px;
+    position: relative;
+    transition: 1.2s;
+    color: rgb(134, 134, 134);
+}
+
+.usuario i:hover {
+    color:#b4b4b4;
+    transition: 1.2s;
+}
+
+
